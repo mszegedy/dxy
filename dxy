@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat '/usr/share/dxy/'$(echo $1 | tr '[:upper:]' '[:lower:]')'.tsv' | grep $'\t'$2$'\t'
